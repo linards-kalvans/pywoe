@@ -1,0 +1,38 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment and local settings
+.env
+.env.*
+*.local
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store

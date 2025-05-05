@@ -1,0 +1,30 @@
+[project]
+name = "pywoe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Linards Kalvāns", email = "linards.kalvans@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "lightgbm>=4.6.0",
+    "numpy>=2.2.5",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.2",
+]
+
+[project.scripts]
+pywoe = "pywoe:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.6",
+    "pytest>=8.3.5",
+]
