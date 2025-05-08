@@ -1,2 +1,3 @@
-def main() -> None:
-    print("Hello from pywoe!")
+from .pywoe import manual_bin, gbm_bin
+
+__all__ = ["manual_bin", "gbm_bin"]
