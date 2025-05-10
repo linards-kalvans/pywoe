@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "lightgbm>=4.6.0",
+    "multiprocess>=0.70.18",
     "numpy>=2.2.5",
     "pandas>=2.2.3",
     "scikit-learn>=1.6.1",
